@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3column-layout</title>
+    <style>
+      .Left {
+        width: 200px;
+        height: 600px;
+        background-color: cyan;
+        float: left;
+      }
+      .right {
+        width: 200px;
+        height: 600px;
+        background-color: burlywood;
+        float: right;
+      }
+      .Middle {
+        height: 600px;
+        margin-left: 200px;
+        margin-right: 200px;
+        background-color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <h4>Idea</h4>
+    <p>1.It is similar to the double column.</p>
+    <p>2.Left and Right are float and with a fixed width</p>
+    <p>3. The middle column is define by the margin of the left and right.</p>
+    <p>
+      4.The sequence of the DOM should be the left, right and follow by Middle.
+    </p>
+    <img
+      src="https://images.pexels.com/photos/16119951/pexels-photo-16119951.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load"
+      width="400px"
+      height="500px"
+      border="10"
+    />;
+
+    <div class="Left">Left</div>
+    <div class="right">right</div>
+    <div class="Middle">Middle</div>
+  </body>
+</html>
